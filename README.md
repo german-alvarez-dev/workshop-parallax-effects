@@ -18,11 +18,11 @@ Parallax effects made with vanilla JS + VivusSVG plugin
  - La función `ìsInViewport()` retorna `true` cuando el elemento se encuentra dentro del *viewport*.
  - El plugin VivusSVG acepta un segundo argumento opcional: un *callback* que se ejecuta cuando el trazado finaliza [(plugin docs)](https://github.com/maxwellito/vivus#vivusjs)
  - Transiciones progresivas realizadas medante CSS (yay!):
- ````css
- .parallax {
-    transition: transform 10s cubic-bezier(0,1,.5,1)
- }
- ````
+   ````css
+   .parallax {
+      transition: transform 10s cubic-bezier(0,1,.5,1)
+   }
+   ````
 
 ## Recursos externos
  - VivusSVG plugin: https://github.com/maxwellito/vivus
