@@ -1,0 +1,287 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>UNDRY | Interacción web avanzada</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Raleway:200,400" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" media="screen" href="css/main.css">
+    <link rel="icon" type="image/png" href="img/favicon.png">
+</head>
+
+<body>
+
+    <div class="fake-bg"></div>
+
+    <header class="navigation">
+
+        <a href="#hero" class="scrollto">
+            <img src="img/logo-dark.png" alt="Logotipo">
+        </a>
+        <nav>
+            <ul>
+                <li><a href="#about" class="scrollto">About</a></li>
+                <li><a href="#features" class="scrollto">Features</a></li>
+                <li><a href="#facts" class="scrollto">Products</a></li>
+                <li><a href="#contact" class="scrollto">Contact</a></li>
+            </ul>
+        </nav>
+
+    </header>
+
+    <main>
+
+        <section class="hero" id="hero">
+
+            <div class="container">
+                <div class="row align-items-center">
+                    <div class="col parallax" data-axis="vertical" data-speed="-.2">
+                        <h1>UNDRY</h1>
+                        <p>Interacción web avanzada_</p>
+                    </div>
+                </div>
+            </div>
+
+        </section>
+
+        <section class="about" id="about">
+
+            <div class="container">
+
+                <div class="row justify-content-center align-items-center">
+
+                    <div class="col-sm-6">
+
+                        <img src="img/home3.jpg" alt="Móvil" class="reveal fadeInUp" data-delay="300ms">
+
+                    </div>
+
+                    <div class="col-sm-4 reveal fadeInRight" data-delay="600ms">
+                        <h2>Efectos de entrada <br> o 'scroll reveal'</h2>
+                        <hr>
+                        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Dolores saepe aliquam nihil
+                            repellendus architecto modi.</p>
+                    </div>
+
+                </div>
+
+            </div>
+
+        </section>
+
+        <section class="features" id="features">
+
+            <div class="container">
+
+                <div class="row">
+
+                    <div class="col-md-6">
+
+                        <h2 class="border-left-title">
+                            Transiciones horizontales <br>con múltiples <br>velocidades
+                        </h2>
+
+                        <div class="row icons">
+
+                            <div class="col-md-6">
+                                <img src="img/basic_bolt.svg" alt="Rayo">
+                                <p>Usabilidad</p>
+                            </div>
+                            <div class="col-md-6">
+                                <img src="img/basic_exclamation.svg" alt="Exclamación">
+                                <p>Accesibilidad</p>
+                            </div>
+                            <div class="col-md-6">
+                                <img src="img/basic_star.svg" alt="Estrella">
+                                <p>Deseabilidad</p>
+                            </div>
+                            <div class="col-md-6">
+                                <img src="img/basic_todo_pen .svg" alt="Cuaderno">
+                                <p>Identidad</p>
+                            </div>
+                        </div>
+
+                    </div>
+                    <div class="col-md-6 mobiles">
+                        <img class="parallax" data-axis="horizontal" data-speed="-.2" src="img/fes9-black.png"
+                            alt="Teléfono">
+                        <img class="parallax" data-axis="horizontal" data-speed="-.3" src="img/fes9-white.png"
+                            alt="Teléfono">
+                    </div>
+                </div>
+            </div>
+
+        </section>
+
+
+
+        <aside class="mega-button">
+            <a href="#contact" class="scrollto">Estamos a un click de contactar</a>
+
+            <svg version="1.1" id="bolt" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"
+                x="0px" y="0px" viewBox="0 0 64 64" enable-background="new 0 0 64 64" xml:space="preserve">
+                <path d="M39.157,0.462l-23,36L17,38h12.695l-6.661,24.74l1.776,0.846l26-36L50,26H37.166l3.823-24.848L39.157,0.462z
+            		 M35.012,26.848L36" />
+            </svg>
+        </aside>
+
+
+
+        <section class="facts" id="facts">
+
+            <div class="container">
+
+                <div class="row justify-content-between align-items-center">
+
+                    <div class="col-sm-4 scroll-inertia-effect">
+
+                        <img class="parallax" data-axis="vertical" data-speed="-.2" src="img/msg1.png" alt="Mensaje">
+                        <img class="parallax" data-axis="horizontal" data-speed="-.2" src="img/msg2.png" alt="Mensaje">
+                        <img class="parallax" data-axis="horizontal" data-speed=".3" src="img/msg3.png" alt="Mensaje">
+                        <img src="img/movil0.jpg" alt="Móvil">
+
+                    </div>
+
+                    <div class="col-sm-5">
+
+                        <h2>Inercia de scroll <br>y desplazamiento</h2>
+                        <hr>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quibusdam a saepe similique
+                            explicabo</p>
+
+                    </div>
+                </div>
+
+                <div class="row justify-content-between align-items-center border-top">
+
+                    <div class="col-sm-5 text-right">
+
+                        <h2>Trazado dinámico <br>mediante SVG</h2>
+                        <hr>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quibusdam a saepe similique
+                            explicabo</p>
+
+                    </div>
+
+                    <div class="col-sm-4">
+
+                        <svg id="relojSVG" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"
+                            viewBox="0 0 426.35 435.61">
+                            <image width="783" height="800" transform="scale(0.54)" xlink:href="img/app5.png" />
+                            <line x1="97.23" y1="126.14" x2="97.23" y2="307.81"
+                                style="fill:none;stroke:#808080	;stroke-miterlimit:10;stroke-width:1.5" />
+                            <polyline
+                                points="246.82 433.86 255.65 432.55 263.9 431.24 269.54 430.11 272.54 428.23 274.79 426.73 277.42 424.48 278.36 422.41 279.48 419.22 282.49 389.75 283.99 377.18 286.05 369.48 287.56 364.79 290 360.28 293 355.97 295.81 352.77 300.69 349.21 304.07 346.96 311.39 342.07 315.15 338.32 318.34 334.57 320.78 330.81 323.03 326.5 324.72 321.43 326.41 313.17 327.16 302.66 327.16 293.08"
+                                style="fill:none;stroke:#808080	;stroke-miterlimit:10;stroke-width:1.5" />
+                            <polyline
+                                points="317.4 305.29 316.84 123.02 315.85 118.38 313.88 113.03 311.63 109.08 309.52 106.13 306.42 103.45 303.18 100.78 299.1 97.96 295.16 96.56 291.5 95.71 137.91 95.01"
+                                style="fill:none;stroke:#808080	;stroke-miterlimit:10;stroke-width:1.5" />
+                        </svg>
+
+                    </div>
+                </div>
+            </div>
+
+        </section>
+
+
+        <aside class="join" class="bg-grey">
+
+            <div class="container">
+
+                <h2 class="border-left-title">
+                    La isometría <br>es tendencia <br>en el diseño actual
+                </h2>
+
+            </div>
+
+            <div class="slider">
+                <div class="slider-track parallax" data-axis="horizontal" data-speed="-.6">
+                    <ul>
+                        <li><img src="img/slide1.jpg" alt="Imagen de trabajo"></li>
+                        <li><img src="img/slide2.jpg" alt="Imagen de trabajo"></li>
+                        <li><img src="img/slide3.jpg" alt="Imagen de trabajo"></li>
+                        <li><img src="img/slide4.jpg" alt="Imagen de trabajo"></li>
+                        <li><img src="img/slide5.jpg" alt="Imagen de trabajo"></li>
+                        <li><img src="img/slide6.jpg" alt="Imagen de trabajo"></li>
+                    </ul>
+                </div>
+            </div>
+
+        </aside>
+
+        <section class="contact" id="contact">
+
+            <div class="container">
+
+                <div class="row justify-content-between ">
+
+                    <div class="col-sm-4 reveal fadeInUp" data-delay="600ms">
+
+                        <img src="img/movil1.png" alt="Movil" class="mouse-inertia">
+                        <img src="img/movil2.png" alt="Movil" class="mouse-inertia">
+                        <img src="img/movil3.png" alt="Movil" class="mouse-inertia">
+                        <img src="img/movil4.png" alt="Movil" class="mouse-inertia">
+
+                    </div>
+
+                    <div class="col-sm-6">
+
+                        <h2 class="border-right-title">La inercia sobre scroll, <br>puntero o giroscopio <br>estimula
+                            procesos atencionales <br>y emocionales</h2>
+                    </div>
+
+                </div>
+
+            </div>
+
+        </section>
+
+
+        <section class="darken border-top">
+
+            <h2 class="change-background" data-color="rgb(20,20,20)">Variaciones dinámicas de fondos</h2>
+
+        </section>
+
+
+        <section class="screen border-top">
+
+            <div class="container">
+
+                <div class="row justify-content-between">
+
+                    <div class="col-sm-4 text-right reveal fadeInLeft" data-delay="600ms">
+
+                        <h2>CSS transform<br> en acción</h2>
+                        <hr>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quibusdam a saepe similique
+                            explicabo</p>
+                    </div>
+
+                    <div class="col-sm-6">
+
+                        <div class="screen-scene reveal">
+                            <img src="img/screen-1.svg" alt="Pantalla">
+                            <img src="img/screen-2.svg" alt="Pantalla">
+                            <img src="img/screen-3.svg" alt="Pantalla">
+                        </div>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+        </section>
+
+    </main>
+    <script src="https://cdn.jsdelivr.net/npm/vivus@latest/dist/vivus.min.js"></script>
+    <script src="js/main.js"></script>
+
+</body>
+
+</html>
