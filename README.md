@@ -1,20 +1,29 @@
-# Parallax-web-effects
+# Efectos Parallax con Javascript workshop
 
+Materiales workshop Efectos Parallax con Javascript @ Ironhack Madrid (recurrente)
+
+## Instalación
+
+No requiere instalación.
+
+## Ejecución
+
+Ejecutar los archivos en el navegador.
+
+## Puntos esenciales
+ - Los atributos `data-attributes` almacenan cualquier tipo de información en el DOM, pudiendo ser accedidos mediante [la propiedad `.dataset`](https://developer.mozilla.org/es/docs/Web/API/HTMLElement/dataset).
 Parallax effects made with vanilla JS + VivusSVG plugin
-
-
-## FYI
- - `data-attributes` can store any information on the DOM, retrieving their values with [the `.dataset` JS property](https://developer.mozilla.org/es/docs/Web/API/HTMLElement/dataset).
- - `.getBoundingClientRect()` method with its porperty `.top` returns the difference between the element top and the viewport top.
- - `ìsInViewport()` function checks whether the argumented element is inside the viewport.
- - Vivus SVG accepts a second optional argument: a callback that will trigger after the drawing process finishes [(plugin docs)](https://github.com/maxwellito/vivus#vivusjs)
- - Smooth transition effect made by the final CSS rule (yay!):
+ - El método `.getBoundingClientRect()` en su propiedad `.top` retorna la diferencia entre el punto superior de un objeto y el punto superior del *viewport*.
+Parallax effects made with vanilla JS + VivusSVG plugin
+ - La función `ìsInViewport()` retorna `true` cuando el elemento se encuentra dentro del *viewport*.
+ - El plugin VivusSVG acepta un segundo argumento opcional: un *callback* que se ejecuta cuando el trazado finaliza [(plugin docs)](https://github.com/maxwellito/vivus#vivusjs)
+ - Transiciones progresivas realizadas medante CSS (yay!):
  ````css
  .parallax {
     transition: transform 10s cubic-bezier(0,1,.5,1)
  }
  ````
 
-## External resources
- - VivusSVG: self-drawing plugin for SVG: https://github.com/maxwellito/vivus
- - Liniea IO iconset (SVG icons taken from the _SVG_ directory): https://github.com/linea-io/Linea-Iconset 
+## Recursos externos
+ - VivusSVG plugin: https://github.com/maxwellito/vivus
+ - Linea IO iconset (iconos SVG en el directorio _SVG_): https://github.com/linea-io/Linea-Iconset 
