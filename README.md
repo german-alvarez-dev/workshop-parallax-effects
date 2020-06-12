@@ -8,7 +8,7 @@ No requiere instalación.
 
 ## Ejecución
 
-Ejecutar los archivos en el navegador.
+Ejecutar `index.html` en el navegador.
 
 ## Puntos esenciales
  - Los atributos `data-attributes` almacenan cualquier tipo de información en el DOM, pudiendo ser accedidos mediante [la propiedad `.dataset`](https://developer.mozilla.org/es/docs/Web/API/HTMLElement/dataset).
