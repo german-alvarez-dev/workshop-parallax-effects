@@ -27,3 +27,4 @@ Parallax effects made with vanilla JS + VivusSVG plugin
 ## Recursos externos
  - VivusSVG plugin: https://github.com/maxwellito/vivus
  - Linea IO iconset (iconos SVG en el directorio _SVG_): https://github.com/linea-io/Linea-Iconset 
+ - Generador online Bezier: https://cubic-bezier.com/
